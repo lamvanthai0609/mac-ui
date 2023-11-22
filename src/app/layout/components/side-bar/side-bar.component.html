@@ -1,0 +1,5 @@
+<div class="fixed w-[600px] bottom-10 left-1/2 -translate-x-1/2 flex items-center justify-between p-4 border-border rounded-xl bg-bg">
+    <div class="w-12 h-12 duration-200 rounded-md cursor-pointer hover:scale-125"  *ngFor="let list of listItems" >
+        <img src="{{list.icon}}" alt="{{list.name}}"  class="rounded-md" matTooltip="{{list.name}}" matTooltipClass="text-base" />
+    </div>
+</div>
